@@ -241,6 +241,22 @@ h1, h2, h3, h4, h5, h6,
   font-size: 1rem;
 }
 
+.feature-icon-box {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #E2E8F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.feature-icon-box i {
+  font-size: 1.1rem;
+}
+
 .btn-hero-primary {
   background: var(--nt-primary);
   color: white;
