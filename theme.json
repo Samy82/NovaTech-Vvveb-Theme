@@ -1,0 +1,13 @@
+{
+  "name": "NovaTech",
+  "version": "1.0",
+  "description": "NovaTech Digital Agency Theme",
+  "thumbnail": "images/thumbnail.png",
+  "templates": [
+    {
+      "name": "Home",
+      "file": "index.html",
+      "thumbnail": "images/thumbnail.png"
+    }
+  ]
+}
