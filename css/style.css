@@ -301,45 +301,89 @@ h1, h2, h3, h4, h5, h6,
 .service-card-hero {
   background: white;
   border-radius: 1rem;
-  padding: 1.25rem;
-  border: 1px solid var(--nt-border);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  border: 1px solid rgba(226,232,240,0.8);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+  overflow: hidden;
   margin-bottom: 1rem;
-  transition: all 0.3s;
-  border-top: 3px solid transparent;
+  transition: box-shadow 0.3s;
 }
 
 .service-card-hero:hover {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  transform: translateY(-4px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.1);
 }
 
-.service-card-hero .card-icon-box {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
+.card-gradient-bar {
+  height: 6px;
+}
+
+.card-content {
+  padding: 1.25rem;
+}
+
+.card-content h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 0.15rem;
+  color: var(--nt-text-dark);
+}
+
+.card-content p {
+  font-size: 0.75rem;
+  color: var(--nt-text-muted);
+  margin: 0;
+}
+
+.card-icon-box-light {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-size: 1.25rem;
-  color: white;
 }
 
-.service-card-hero h4 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
+.card-icon-box-light i {
   font-size: 1rem;
-  margin-bottom: 0.15rem;
 }
 
-.service-card-hero p {
-  font-size: 0.8rem;
-  color: var(--nt-text-muted);
-  margin: 0;
+.card-decoration {
+  margin-top: 1rem;
+}
+
+.deco-bar {
+  height: 6px;
+  background: #F1F5F9;
+  border-radius: 50rem;
+  margin-bottom: 6px;
+}
+
+.deco-square {
+  width: 32px;
+  height: 32px;
+  background: #F1F5F9;
+  border-radius: 8px;
+}
+
+.deco-rect {
+  height: 32px;
+  flex: 1;
+  background: #FAFBFC;
+  border-radius: 8px;
+  border: 1px solid #F1F5F9;
+}
+
+.deco-small-square {
+  width: 40px;
+  height: 40px;
+  background: #F1F5F9;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.deco-lines {
+  flex: 1;
 }
 
 /* --- Trust Section --- */
